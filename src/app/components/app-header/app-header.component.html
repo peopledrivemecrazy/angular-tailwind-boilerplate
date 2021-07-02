@@ -1,0 +1,5 @@
+<p>app-header works! {{ currentCount }}</p>
+
+<p class="p-4" [ngClass]="currentCount >= limit ? 'text-red-400' : 'text-indigo-800'">
+  {{currentCount >= limit ? 'count too high' : 'count low'}}
+</p>
